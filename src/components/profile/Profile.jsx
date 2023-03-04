@@ -7,7 +7,7 @@ export const Profile = ({ username, tag, location, avatar, stats }) => (
             <img
                 src={avatar}
                 alt="User avatar"
-                className="avatar"
+                className={css.avatar}
             />
             <p className={css.name} > {username}</p>
             <p className={css.tag} > @{tag}</p>
@@ -15,15 +15,15 @@ export const Profile = ({ username, tag, location, avatar, stats }) => (
         </div>
 
         <ul className={css.stats}>
-            <li>
+            <li className={css.followers}>
                 <span className={css.label} >Followers</span>
                 <span className={css.quantity} > {stats.followers}</span>
             </li>
-            <li>
+           <li className={css.views}>
                 <span className={css.label} >Views</span>
                 <span clasName={css.quantity} > {stats.views}</span>
             </li>
-            <li>
+            <li className={css.likes}>
                 <span className={css.label} >Likes</span>
                 <span className={css.quantity} > {stats.likes}</span>
             </li>

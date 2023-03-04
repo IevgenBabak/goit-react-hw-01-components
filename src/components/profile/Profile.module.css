@@ -1,11 +1,12 @@
 .profile {
-    max-width: 40%;
-    margin-top: 5vh;
+    
+    margin-top: 50px;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    border-radius: 2%;
 }
 
 .description {
@@ -13,27 +14,29 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 2rem;
 }
 
 .avatar {
     display: flex;
-    max-width: 30%;
+    max-width: 40%;
     border-radius: 50%;
-    border: 5px dotted black;
+    border: 2px dotted black;
 }
 
-.profileName {
-    margin-bottom: 0.5rem;
+.name {
+    margin-bottom: 20px;
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 50px;
 }
 
-.profileTag,
-.profileLocation {
-    margin: 0.5rem;
-    font-size: 2rem;
+.tag,
+.location {
+    margin: 10px;
+    font-size: 30px;
     color: #8a8b8e;
+}
+.location {
+    margin-bottom: 50px;
 }
 
 .stats {
@@ -48,32 +51,26 @@
 .stats>li {
     display: flex;
     flex-direction: column;
-    padding: 1rem 0;
-    font-size: 1.5rem;
+    padding: 30px;
+    font-size: 25px;
     text-align: center;
+    font-weight: bold;
     border-top: 1px solid #d3d5e3;
     background-color: rgba(241, 241, 241, 0.833);
 }
 
-.viewsList {
+.views {
     border-left: 1px solid #d3d5e3;
     border-right: 1px solid #d3d5e3;
 }
 
-.followersList {
-    border-radius: 0 0 0 0.5rem;
-}
-
-.likesList {
-    border-radius: 0 0 0.5rem;
-}
 
 .label {
-    padding-bottom: 0.5rem;
+    padding-bottom: 10px;
     color: #8a8b8e;
 }
 
 .quantity {
     font-weight: bold;
-    border-radius: 0.5rem;
+ 
 }
