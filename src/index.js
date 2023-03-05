@@ -12,7 +12,8 @@ import user from './components/profile/user.json';
 import { Statistics } from 'components/statistics/Statistics';
 import data from './components/statistics/data.json';
 
-
+import { FriendList } from 'components/friend_list/FriendList';
+import friends from './components/friend_list/friends.json';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -28,6 +29,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
       <Statistics title="Upload stats" stats={data} />
       <Statistics stats={data} />
+
+      <FriendList friends={friends} />
 
     </App>
   </React.StrictMode>
