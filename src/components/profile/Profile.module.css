@@ -1,6 +1,7 @@
 .profile {
     
     margin-top: 50px;
+    margin-left: 50px;
     padding-top: 50px;
     display: flex;
     flex-direction: column;
